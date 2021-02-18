@@ -24,13 +24,32 @@ body {
     background-color: var(--dark-cyan);
     background-size: 40em, 40em;
     background-position:
-        top -20em left -30em,
-        right -27.5em bottom -20em;
+        top -20em left -28em,
+        right -28em bottom -20em;
 
-    /* background-attachment:
-        local,
-        local; */
+    background-attachment: local, local;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+#main-container {
+    position: relative;
+    height: 50%;
+    width: 85%;
+    border-radius: 1em;
+    border: none;
+    box-shadow: 0px 0px 30px 30px var(--dark-cyan);
+    background-color: white;
+}
+
+#card-header-bg {
+    position: absolute;
+    width: 100%;
+    background-image: url('/images/bg-pattern-card.svg');
+    height: 40%;
+    border-radius: 1em 1em 0 0;
 }
 
 
